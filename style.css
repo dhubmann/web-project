@@ -7,18 +7,18 @@
   flex-wrap: wrap;
 }
 
-.col {
+.box {
   border: solid red 5px;
   width: 150px;
   height: 150px;
 }
 
-div.col:hover {
+div.box:hover {
   transition: 0.1s;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#new-col-btn {
+#new-box-btn {
     border:none;
     background-color: red;
     width: 40px;
