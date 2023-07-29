@@ -5,8 +5,17 @@ const newBoxBtn = document
   });
 
 function addNewBox() {
-  var box = document.createElement("div");
+  let box = document.createElement("div");
   box.className = "box";
   document.getElementById("container").appendChild(box);
-  console.log("new box element");
+
+  let deleteButton = document.createElement("button");
+  deleteButton.className = "btn rm-box-btn";
+  let minus = document.createElement("span");
+  minus.className = "minus";
+  minus.textContent = "-";
+  deleteButton.appendChild(minus);
+  box.appendChild(deleteButton);
+
+  /* TODO: add link of box*/
 }
